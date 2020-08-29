@@ -19,6 +19,20 @@ const validateAnswer = async (input) => {
     return true;
 };
 
+const startQuestions = [
+    {
+        type: "list",
+        message: "Add a new team profile?",
+        name: "role",
+        choices: [
+            "Intern",
+            "Engineer",
+            "Manager",
+            "No, I'm done."
+        ]
+    }
+]
+
 const internPrompts = [
     {
         type: "input",
