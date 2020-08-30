@@ -28,7 +28,7 @@ const startQuestions = [
             "Intern",
             "Engineer",
             "Manager",
-            "No, I'm done."
+            "Exit"
         ]
     }
 ]
@@ -130,7 +130,7 @@ function newMember() {
                 newManager();
                 break;
 
-            case "No, I'm done.":
+            case "Exit":
                 console.log("Finished entering team members.");
                 break;
         
